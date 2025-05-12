@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="ex10.js"></script>
+  <title>exercicio10</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="card">
+        <input type="number" id="temperatura" placeholder="Temperatura em Celsius" />
+    
+        <div class="opcoes">
+          <button onclick="converterTemperatura('fahrenheit')">Para Fahrenheit</button>
+          <button onclick="converterTemperatura('kelvin')">Para Kelvin</button>
+        </div>
+      </div>
+    
+      <div id="resultado">
+        <p id="resultadoTexto"></p>
+      </div>
+</body>
+</html>

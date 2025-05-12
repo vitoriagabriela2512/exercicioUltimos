@@ -1,0 +1,153 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1 {
+    background-color: pink;
+    color: white;
+    padding: 30px 0;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 2em;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: plum;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: pink;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  .navbar a.active {
+    background-color: pink;
+    color: white;
+    font-weight: bold;
+  }
+  .section {
+    display: none;
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 2px solid plum;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section.active {
+    display: block;
+  }
+  .card {
+    background-color: white;
+    border: 2px solid plum;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 500px;
+  }
+  
+  .card input,
+  .card select {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid pink;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .card button {
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .card button:hover {
+    background-color: plum;
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 10px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    background-color: #ffe6f0;
+    border: 1px solid plum;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li button {
+    background-color: pink;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  li button:hover {
+    background-color: plum;
+  }
+
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar a {
+      margin: 5px 0;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  }
+  

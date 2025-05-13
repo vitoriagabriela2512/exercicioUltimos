@@ -1,23 +1,31 @@
-/* Estilo base */
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    text-align: center;
+    background-image: url("imagemEx03.jpg"); 
+        background-repeat: repeat;
+        background-size: auto;
+        background-color: white; 
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+   
 }
 
-/* Cabeçalho */
 h1 {
-    background-color: pink;
+    background-color: rgb(255, 192, 203);
     color: white;
     padding: 30px 0;
     margin-bottom: 40px;
     font-size: 2em;
+    width: 100%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
-/* Caixa de conteúdo principal (card) */
 .card {
     background-color: white;
     border: 2px solid plum;
@@ -28,7 +36,7 @@ h1 {
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-/* Inputs e botão */
+
 .card input {
     display: block;
     width: 90%;
@@ -58,7 +66,6 @@ h1 {
     box-shadow: 0 5px 10px rgba(0,0,0,0.15);
 }
 
-/* Resultado */
 #resultado {
     margin-top: 20px;
     font-weight: bold;

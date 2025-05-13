@@ -1,12 +1,22 @@
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #f8e9f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
+  background-image: url("imagemEx14.jpg"); 
+  background-repeat: repeat;
+  background-size: auto;
+  background-color: white; 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+h1 {
+  color: pink;
+  margin-bottom: 10px;
+}
   
   .container {
     background-color: white;
@@ -15,12 +25,9 @@ body {
     border: 3px solid pink;
     text-align: center;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    
   }
   
-  h1 {
-    color: plum;
-    margin-bottom: 10px;
-  }
   
   p {
     color: #4a004a;
